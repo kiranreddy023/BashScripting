@@ -5,10 +5,12 @@
 # Description - sequence of commands
 
 echo "executing some commands"
+echo "========================================================="
 mkdir -pv a/b/c/d/e/f
 echo "=========================================================="
 rmdir -pv a/b/c/d/e/f
 echo "=========================================================="
 cat -n createfilewithperm.sh
 echo "=========================================================="
+tail /etc/passwd
 
