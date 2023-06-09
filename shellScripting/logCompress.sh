@@ -1,6 +1,6 @@
 #!/bin/bash
-sysfile="var/log/syslog"
+sysfile="/var/log/syslog"
 
-compFile="/home/ubuntu/bashScripting/shellScripting/compfile_$(date +%Y-%m-%d).tar.gz"
+compFile="/home/ubuntu/bashScripting/shellScripting/compfile_$(date +%Y-%m-%d-%H-%M-%S).tar.gz"
 
 tar -czf $compFile $sysfile
