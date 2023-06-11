@@ -4,14 +4,14 @@ totalMem=$(free -m | awk '/Mem:/ {print $2}')
 availMem=$(free -m | awk '/Mem:/ {print $NF}')
 
 echo "Available RAM Memory is $availMem MB"
-echo "\nTotal RAM Memory is $totalMem MB"
+echo "Total RAM Memory is $totalMem MB"
 
 thresold=30
-echo "\nThresold Limit is $thresold%\n"
+echo "Thresold Limit is $thresold%"
 
 present=$((  $availMem * 100 / $totalMem ))
 
-echo "Available Memory Percantage is $present% \n"
+echo "Available Memory Percantage is $present%"
 
 if [ $thresold -ge $present ]
 then

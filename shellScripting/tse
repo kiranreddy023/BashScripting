@@ -1,2 +1,0 @@
-for x in A B C ; do
-if [ $a -ge $b ] ; do
