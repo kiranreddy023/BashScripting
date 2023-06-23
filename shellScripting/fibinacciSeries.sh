@@ -1,5 +1,5 @@
 #!/bin/bash
-echo enter a number
+echo "enter a number to do iteratives"
 read n
 a=0
 b=1
