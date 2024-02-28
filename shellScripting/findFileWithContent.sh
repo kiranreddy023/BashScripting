@@ -17,7 +17,7 @@ fi
 
 echo "searching for the word '$2' in '$1' folder"
 
-foundFiles=$(grep -rl '$2' '$folder')
+foundFiles=$(grep -rl "$2" "$folder")
 
 
 
